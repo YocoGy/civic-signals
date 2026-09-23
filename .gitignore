@@ -1,0 +1,32 @@
+# Environment / secrets
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Runtime data
+storage/logs/*
+!storage/logs/.gitkeep
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/cache/*
+!storage/cache/.gitkeep
+
+# Local/editor/OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# PHP/runtime leftovers
+*.log
+*.tmp
+*.swp
+
+# Local test artifacts
+.phpunit.result.cache
+coverage/
+
+# Debug endpoints / local backups
+public/session-debug.php
+public/!index.php

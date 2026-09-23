@@ -1,0 +1,11 @@
+{
+  "dataset_name": "SU_BG_NSI_LAU_2024_1",
+  "version": "2024.1",
+  "reference_date": "2024-12-31",
+  "source": "National Statistical Institute (NSI)",
+  "crs": "EPSG:9391",
+  "identifier": "EKATTE",
+  "entities": 265,
+  "canonical_source_file": "data/geography/SU_BG_NSI_LAU_2024_1.gpkg",
+  "source_sha256": "edf3ae6060f6e5cad1daedfcef5febbd21d9809112b6e26a87cf44ae0f17deab"
+}
